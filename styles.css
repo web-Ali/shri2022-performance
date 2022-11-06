@@ -17,16 +17,6 @@ html, body {
     height: 100%;
 }
 
-.a11y-hidden {
-    position: absolute;
-    left: auto;
-    height: 1px;
-    width: 1px;
-    top: 0;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-}
-
 .header {
     position: relative;
     display: flex;

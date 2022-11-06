@@ -86,7 +86,6 @@
             links.classList.toggle('header__links_opened');
         });
     }
-
     document.addEventListener('DOMContentLoaded', () => {
         Array.from(document.querySelectorAll('.main__devices')).forEach(makeTabs);
         makeMenu()
