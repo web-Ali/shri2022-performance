@@ -51,7 +51,6 @@
             if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
                 return;
             }
-
             let index = list.indexOf(selected);
             if (event.which === 37) {
                 // left
