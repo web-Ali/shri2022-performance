@@ -7,7 +7,7 @@
             e.currentTarget.querySelector('.section__tab_active').classList.remove('section__tab_active')
             e.target.classList.toggle('section__tab_active')
             contentWrap.querySelector( ".section__panel:not(.section__panel_hidden)" ).classList.add("section__panel_hidden")
-            content[e.target.getAttribute("data-content")].classList.remove("section__panel_hidden")
+            content[e.target.getAttribute("data-id")].classList.remove("section__panel_hidden")
         } )
     }
 
