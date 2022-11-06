@@ -79,20 +79,16 @@
         });
     }
 
-    function makeMenu(node) {
-        console.log(node)
-        let expanded = false;
+    function makeMenu() {
         const links = document.querySelector('.header__links');
-
-        node.addEventListener('click', () => {
-            expanded = !expanded;
-            node.setAttribute('aria-expanded', expanded);
-            links.classList.toggle('header__links_opened', expanded);
+        const header__menu = document.querySelector('.header__menu');
+        header__menu.addEventListener('click', () => {
+            links.classList.toggle('header__links_opened');
         });
     }
 
     document.addEventListener('DOMContentLoaded', () => {
         Array.from(document.querySelectorAll('.main__devices')).forEach(makeTabs);
-        Array.from(document.querySelectorAll('.header__menu')).forEach(makeMenu);
+        makeMenu()
     });
 })();
