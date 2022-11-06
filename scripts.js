@@ -9,6 +9,7 @@
         let selected = node.querySelector('.section__tab_active').dataset.id;
         const tabs = node.querySelectorAll('.section__tab');
         const list = Array.from(tabs).map(node => node.dataset.id);
+        console.log(list)
         const select = node.querySelector('.section__select');
 
         function selectTab(newId) {
@@ -46,37 +47,6 @@
             selectTab(newId);
         });
 
-        bind(tabs, 'keydown', event => {
-            if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
-                return;
-            }
-
-            let index = list.indexOf(selected);
-            if (event.which === 37) {
-                // left
-                --index;
-            } else if (event.which === 39) {
-                // right
-                ++index;
-            } else if (event.which === 36) {
-                // home
-                index = 0;
-            } else if (event.which === 35) {
-                // end
-                index = list.length - 1;
-            } else {
-                return;
-            }
-
-            if (index >= list.length) {
-                index = 0;
-            } else if (index < 0) {
-                index = list.length - 1;
-            }
-
-            selectTab(list[index]);
-            event.preventDefault();
-        });
     }
 
     function makeMenu() {
