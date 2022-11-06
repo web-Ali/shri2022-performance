@@ -3,9 +3,15 @@
         let tabs = document.querySelector('.section__tabs')
         let content = document.querySelectorAll('.section__panel')
         let contentWrap = document.querySelector('.section__panel__wrap')
+        let tabSelection = document.querySelector('.section__select')
+        tabSelection.addEventListener("change", function (){
+            contentWrap.querySelector( ".section__panel:not(.section__panel_hidden)" ).classList.add("section__panel_hidden")
+            content[tabSelection.options.selectedIndex].classList.remove("section__panel_hidden")
+        });
         tabs.addEventListener( "click", function(e) {
             e.currentTarget.querySelector('.section__tab_active').classList.remove('section__tab_active')
             e.target.classList.toggle('section__tab_active')
+            tabSelection.options.selectedIndex = e.target.getAttribute("data-id")
             contentWrap.querySelector( ".section__panel:not(.section__panel_hidden)" ).classList.add("section__panel_hidden")
             content[e.target.getAttribute("data-id")].classList.remove("section__panel_hidden")
         } )
