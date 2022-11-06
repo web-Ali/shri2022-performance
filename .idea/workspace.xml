@@ -4,8 +4,11 @@
     <list default="true" id="b443d8c1-1292-4d9d-95a7-984afa0cc07b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg@2x-old.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/bg@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/cloud-drizzle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cloud-drizzle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon_list_m1x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon_list_m@1x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon_list_m@1x.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icon_scheduled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon_scheduled.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icon_sun.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon_sun.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icon_sun_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon_sun_2.svg" afterDir="false" />
@@ -53,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667701996043</updated>
-      <workItem from="1667701998003" duration="3264000" />
+      <workItem from="1667701998003" duration="3712000" />
     </task>
     <servers />
   </component>
@@ -70,5 +73,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/scripts.js</url>
+          <line>72</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
