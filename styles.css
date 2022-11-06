@@ -1,6 +1,5 @@
 
 html {
-    font-size: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.25;
 }
@@ -8,13 +7,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: inherit;
-    line-height: inherit;
-    margin: 0;
-}
-
-html, body {
-    height: 100%;
 }
 
 .header {
@@ -25,7 +17,6 @@ html, body {
     height: 5.75rem;
     margin-bottom: 1.875rem;
     padding: 0 2.5rem;
-    font-family: Arial, sans-serif;
     border-bottom: 1px solid #F0F0F0;
 }
 
