@@ -133,16 +133,16 @@
                 <option value="cameras">Камеры</option>
             </select>
 
-            <ul role="tablist" class="section__tabs">
-                <li role="tab" aria-selected="true" tabindex="0" class="section__tab section__tab_active" id="tab_all" aria-controls="panel_all" data-id="all">Все</li>
-                <li role="tab" aria-selected="false" class="section__tab" id="tab_kitchen" aria-controls="panel_kitchen" data-id="kitchen">Кухня</li>
-                <li role="tab" aria-selected="false" class="section__tab" id="tab_hall" aria-controls="panel_hall" data-id="hall">Зал</li>
-                <li role="tab" aria-selected="false" class="section__tab" id="tab_lights" aria-controls="panel_lights" data-id="lights">Лампочки</li>
-                <li role="tab" aria-selected="false" class="section__tab" id="tab_cameras" aria-controls="panel_cameras" data-id="cameras">Камеры</li>
+            <ul class="section__tabs">
+                <li data-content="0" class="section__tab section__tab_active" >Все</li>
+                <li data-content="1" class="section__tab" >Кухня</li>
+                <li data-content="2" class="section__tab" >Зал</li>
+                <li data-content="3" class="section__tab" >Лампочки</li>
+                <li data-content="4" class="section__tab" >Камеры</li>
             </ul>
         </div>
-
-        <div role="tabpanel" class="section__panel" aria-hidden="false" id="panel_all" aria-labelledby="tab_all" data-id="all">
+        <div class="section__panel__wrap">
+        <div class="section__panel">
             <ul class="section__panel-list">
                 <li class="event">
                     <button class="event__button">
@@ -196,7 +196,7 @@
             </ul>
         </div>
 
-        <div role="tabpanel" class="section__panel section__panel_hidden" aria-hidden="true" id="panel_kitchen" aria-labelledby="tab_kitchen" data-id="kitchen">
+        <div  class="section__panel section__panel_hidden" >
             <ul class="section__panel-list">
                 <li class="event">
                     <button class="event__button">
@@ -215,7 +215,7 @@
             </ul>
         </div>
 
-        <div role="tabpanel" class="section__panel section__panel_hidden" aria-hidden="true" id="panel_hall" aria-labelledby="tab_hall" data-id="hall">
+        <div  class="section__panel section__panel_hidden" >
             <ul class="section__panel-list">
                 <li class="event">
                     <button class="event__button">
@@ -234,7 +234,7 @@
             </ul>
         </div>
 
-        <div role="tabpanel" class="section__panel section__panel_hidden" aria-hidden="true" id="panel_lights" aria-labelledby="tab_lights" data-id="lights">
+        <div  class="section__panel section__panel_hidden" >
             <ul class="section__panel-list">
                 <li class="event">
                     <button class="event__button">
@@ -267,7 +267,7 @@
             </ul>
         </div>
 
-        <div role="tabpanel" class="section__panel section__panel_hidden" aria-hidden="true" id="panel_cameras" aria-labelledby="tab_cameras" data-id="cameras">
+        <div  class="section__panel section__panel_hidden" >
             <ul class="section__panel-list">
                 <li class="event">
                     <button class="event__button">
@@ -277,6 +277,7 @@
                     </button>
                 </li>
             </ul>
+        </div>
         </div>
     </section>
 </main>
