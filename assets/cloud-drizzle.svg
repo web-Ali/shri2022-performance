@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px" viewBox="0 0 13 13" version="1.1">
-<g id="surface1">
-<path style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(20%,20%,20%);stroke-opacity:1;stroke-miterlimit:4;" d="M 13.999014 18.000618 L 13.999014 20.00062 M 13.999014 11.000611 L 13.999014 13.000613 M 8.999009 20.00062 L 8.999009 22.000622 M 8.999009 13.000613 L 8.999009 15.000615 M 19.99902 15.578741 C 22.163085 14.633427 23.374023 12.297487 22.889648 9.977172 C 22.405272 7.66467 20.366208 6.000606 17.999018 6.000606 L 16.741204 6.000606 C 15.866203 2.625603 12.920888 0.203725 9.444322 0.00841251 C 5.967756 -0.1869 2.764628 1.891227 1.522439 5.14123 C 0.28025 8.399046 1.280251 12.078737 3.999004 14.250614 " transform="matrix(0.499999,0,0,0.499999,0.5005,0.9997)"/>
-</g>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-drizzle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v1-2-1-home-dashboard" transform="translate(-212.000000, -365.000000)">
+            <g id="status" transform="translate(39.000000, 195.000000)">
+                <g id="Group" transform="translate(1.000000, 40.000000)">
+                    <g id="Group-2" transform="translate(-15.000000, -596.000000)">
+                        <g id="Group-3-Copy" transform="translate(120.000000, 699.000000)">
+                            <g id="Group-4" transform="translate(67.000000, 27.000000)">
+                                <g id="cloud-drizzle" transform="translate(1.000000, 2.000000)" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                                    <path d="M14,18 L14,20" id="Shape"></path>
+                                    <path d="M14,11 L14,13" id="Shape"></path>
+                                    <path d="M9,20 L9,22" id="Shape"></path>
+                                    <path d="M9,13 L9,15" id="Shape"></path>
+                                    <path d="M20,15.58 C22.1666971,14.6310615 23.3719893,12.2936524 22.8885932,9.97818513 C22.4051971,7.66271783 20.3653864,6.00278331 18,6 L16.74,6 C15.8695943,2.62945307 12.9194928,0.208656038 9.44387933,0.0129425627 C5.96826587,-0.182770913 2.76504323,1.89152946 1.52174557,5.14305273 C0.2784479,8.394576 1.28050125,12.0768642 4,14.25" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
