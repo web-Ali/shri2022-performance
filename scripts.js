@@ -9,7 +9,6 @@
         let selected = node.querySelector('.section__tab_active').dataset.id;
         const tabs = node.querySelectorAll('.section__tab');
         const list = Array.from(tabs).map(node => node.dataset.id);
-        console.log(list)
         const select = node.querySelector('.section__select');
 
         function selectTab(newId) {
