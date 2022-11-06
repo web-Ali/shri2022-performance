@@ -8,18 +8,11 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
 }
 
-
-.a11y-hidden {
-    position: absolute;
-    left: auto;
-    height: 1px;
-    width: 1px;
-    top: 0;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-}
 
 .header {
     position: relative;
