@@ -17,16 +17,6 @@ html, body {
     height: 100%;
 }
 
-.a11y-hidden {
-    position: absolute;
-    left: auto;
-    height: 1px;
-    width: 1px;
-    top: 0;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-}
-
 .header {
     position: relative;
     display: flex;
@@ -275,7 +265,6 @@ html, body {
     gap: 0.9375rem;
     height: 20.6875rem;
     background: no-repeat 50% 50% url(assets/bg_2x.webp);
-    /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
 }
