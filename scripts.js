@@ -5,8 +5,7 @@
         });
     }
 
-    function makeTabs() {
-        let node = document.querySelector('.main__devices')
+    function makeTabs(node) {
         let selected = node.querySelector('.section__tab_active').dataset.id;
         const tabs = node.querySelectorAll('.section__tab');
         const list = Array.from(tabs).map(node => node.dataset.id);
@@ -51,6 +50,7 @@
             if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
                 return;
             }
+
             let index = list.indexOf(selected);
             if (event.which === 37) {
                 // left
@@ -79,15 +79,21 @@
         });
     }
 
-    function makeMenu() {
+    function makeMenu(node) {
+        let expanded = false;
         const links = document.querySelector('.header__links');
-        const header__menu = document.querySelector('.header__menu');
-        header__menu.addEventListener('click', () => {
-            links.classList.toggle('header__links_opened');
+
+        node.addEventListener('click', () => {
+            expanded = !expanded;
+            node.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+            node.querySelector('.header__menu-text').textContent = expanded ? 'Закрыть меню' : 'Открыть меню';
+            links.classList.toggle('header__links_opened', expanded);
+            links.classList.add('header__links-toggled');
         });
     }
+
     document.addEventListener('DOMContentLoaded', () => {
-        makeTabs()
-        makeMenu()
+        Array.from(document.querySelectorAll('.main__devices')).forEach(makeTabs);
+        Array.from(document.querySelectorAll('.header__menu')).forEach(makeMenu);
     });
 })();
